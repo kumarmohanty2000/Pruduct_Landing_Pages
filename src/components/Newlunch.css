@@ -1,0 +1,24 @@
+.contain{
+    background-color: rgb(26, 24, 24);
+    border-radius: 5PX;
+    margin: 2PX;
+}
+.bg-image-container {
+    background-image: url('../src/assets/newlunch.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* Adjust as needed */
+    width: 80vw;
+    position: relative;
+    color: white; /* Optional: Makes text color white for contrast */
+  }
+  
+  .text-container {
+    font-family: "serif";
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-70%);
+    text-align: right;
+  }
+  
